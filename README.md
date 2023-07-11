@@ -10,3 +10,8 @@ Just a collection of some good problem's solution. I tried my best to write Indu
 # II] Kirchoff's Matrix Tree
     You are given an adjacency matrix of an undirected connected graph. Find the total number of spanning trees.
     
+    Solution: 1) Create a Laplacian matrix of the graph
+              2) Remove any 1 row and any 1 column
+              3) Find the determinant of the matrix
+              4) Determinant is your answer
+    P.S: Read about the special case when it is a complete graph. (Cayley's formula)
